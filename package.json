@@ -1,0 +1,46 @@
+{
+  "dependencies": {
+    "@discordjs/core": "^0.6.0",
+    "@discordjs/voice": "^0.15.0",
+    "axios": "^1.3.4",
+    "bufferutil": "^4.0.7",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "erlpack": "github:discord/erlpack",
+    "express": "^4.18.2",
+    "openai": "^4.19.1",
+    "partial-js": "^1.1.8",
+    "require": "^0.4.4",
+    "utf-8-validate": "^6.0.3",
+    "zlib-sync": "^0.1.8"
+  },
+  "name": "dicobot",
+  "version": "0.0.1",
+  "main": "index.js",
+  "type": "commonjs",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch \"./src/**/*.ts\" --exec \"npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antiwater19/discord-bot.git"
+  },
+  "author": "LEE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antiwater19/discord-bot/issues"
+  },
+  "homepage": "https://github.com/antiwater19/discord-bot#readme",
+  "description": "JR디코봇",
+  "keywords": [
+    "(discord.js)",
+    "index.js"
+  ]
+}

@@ -1,0 +1,5 @@
+### 얘는 토큰있어서 위험함 함부로 커밋하면 안됨 ###
+*.txt
+node_modules/
+*.Config.json
+*.important.json
