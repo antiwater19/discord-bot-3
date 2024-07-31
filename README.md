@@ -1,10 +1,8 @@
 # Project: discord-JR-bot
 
-## 디스코드 봇 가이드 2탄
+## 디스코드 봇 가이드 3탄
 ## 
 
-슬래시 명령어 추가하기
-서버에 초대한 봇에게 명령어 사용
 
 
 개발환경: <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=#007ACC">, discord-developer-portal, <img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=#5865F2">
