@@ -10,7 +10,6 @@
     "dotenv": "^16.4.5",
     "erlpack": "github:discord/erlpack",
     "express": "^4.18.2",
-    "openai": "^4.19.1",
     "partial-js": "^1.1.8",
     "require": "^0.4.4",
     "utf-8-validate": "^6.0.3",

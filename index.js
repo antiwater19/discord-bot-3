@@ -1,6 +1,7 @@
 const express = require("express");
 const fs = require('node:fs');
 const path = require('node:path');
+const wait = require('node:timers/promises').setTimeout;
 const { Client, Collection, GatewayIntentBits, Events } = require('discord.js');
 const { token } = require('./config.json');
 
@@ -38,5 +39,7 @@ for (const file of eventFiles) {
 		client.on(event.name, (...args) => event.execute(...args));
 	}
 }
+
+
 
 client.login(token);
