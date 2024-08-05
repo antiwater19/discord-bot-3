@@ -8,6 +8,7 @@ const { token } = require('./config.json');
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 // 명령어 파일들 commands폴더 뒤저서 실행해주는 코드
+client.cooldowns = new Collection();
 client.commands = new Collection();
 const foldersPath = path.join(__dirname, 'commands');
 const commandFolders = fs.readdirSync(foldersPath);
@@ -39,6 +40,7 @@ for (const file of eventFiles) {
 		client.on(event.name, (...args) => event.execute(...args));
 	}
 }
+
 
 //디스코드 채팅메시지 로그 기록하기 만들어보는중
 client.on('messageCreate', (message) => {
