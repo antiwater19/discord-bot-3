@@ -40,6 +40,9 @@ for (const file of eventFiles) {
 	}
 }
 
-
+//디스코드 채팅메시지 로그 기록하기 만들어보는중
+client.on('messageCreate', (message) => {
+	console.log(message.content);
+});
 
 client.login(token);
